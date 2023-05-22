@@ -28,3 +28,14 @@
     a = ''.join(answer)
     
     return a
+
+#### rny_string
+    def solution(rny_string):
+    answer = ''
+    for i in rny_string:
+        if 'm' in rny_string:
+            answer = rny_string.replace('m', 'rn')
+        else:
+            answer = rny_string
+            
+    return answer
